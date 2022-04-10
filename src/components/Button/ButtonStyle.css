@@ -1,0 +1,73 @@
+.btn {
+    width: 280px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    cursor: pointer;
+    background-color: #ff6a6a;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #ff4343;
+}
+
+.btn:active {
+    background-color: #c53333;
+}
+
+.disabledBtn {
+    cursor: default;
+}
+
+.disabledRedBtn {
+    background-color: #fabfbf;
+    cursor: default;
+}
+
+.disabledRedBtn:hover {
+    background-color: #fabfbf;
+}
+
+.greyBtn {
+    background-color: #bbb;
+}
+
+.greyBtn:hover {
+    background-color: #9c9c9c;
+}
+
+.greyBtn:active {
+    background-color: #6f6f6f;
+}
+
+.disabledGreyBtn {
+    background-color: #dfdfdf;
+    cursor: default;
+}
+
+.disabledGreyBtn:hover {
+    background-color: #dfdfdf;
+    cursor: default;
+}
+
+.addOrderBtn {
+    width: 215px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 320px) {
+    .btn {
+        width: 145px;
+    }
+
+    .addOrderBtn {
+        width: 280px;
+    }
+}
